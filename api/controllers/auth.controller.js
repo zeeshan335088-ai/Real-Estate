@@ -33,7 +33,7 @@ res
    } catch (error) {
     next(error);
    }
-}
+  }
 
 export const google = async (req, res, next) =>{
   try{
